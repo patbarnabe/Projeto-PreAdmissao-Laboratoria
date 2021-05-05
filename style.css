@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+.titulo {
+    text-align: center;
+    margin: 5%;
+}
+
+.subtitulo {
+    text-align: center;
+    margin: 5%;
+}
+
+.respostas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.respostasCorretas {
+    margin: 0 0 5% 0;
+    border: solid;
+    padding: 2% 10% 10% 10%;
+}
+
+.respostasErradas {
+    margin: 0 0 5% 0;
+    border: solid;
+    padding: 2% 10% 10% 10%;
+}
+
+.resultadoErrado1 {
+    margin: 5% 5% 5% 0;
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+}
+
+.resultadoErrado2 {
+    margin: 5% 5% 5% 0;
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+}
+
+.resultadoErrado3 {
+    margin: 5% 5% 5% 0;
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+}
+
+.resultadoCerto1 {
+    margin: 5% 5% 5% 0;
+    text-align: center;
+    color: green;
+    font-weight: bolder;
+}
+
+.resultadoCerto2 {
+    margin: 5% 5% 5% 0;
+    text-align: center;
+    color: green;
+    font-weight: bolder;
+}
+
+.resultadoCerto3 {
+    margin: 5% 5% 5% 0;
+    text-align: center;
+    color: green;
+    font-weight: bolder;
+}
+
+.nome {
+    text-align: center;
+    margin: 0 0 10% 0;
+}
+
