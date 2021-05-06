@@ -6,7 +6,7 @@ if (iniciar == "1") {
 
     const provas = prompt("Coloque a letra correspondente um tipo de prova: \n- Prova A: Pets  \n- Prova B: Filmes")
 
-        if(provas == "A") {
+        if(provas == "A" || "a") {
 
             const perguntaUm = prompt("Digite a alternativa correta: \Cachorros podem comer frutas cítricas? \n1. Sim \n2. Não \n3. Talvez")
             const perguntaDois = prompt("Digite a alternativa correta: \Gatos podem viver até quantos anos? \n1. 10 anos \n2. 20 anos \n3. 15 anos")
